@@ -3,6 +3,15 @@ This study intends to explore and study one of the main American indexes Standar
 
 We will see how many breakouts occurred over time and what returns this simple strategy would give in the past. This study is not a backtest, it is simply a statistical study to see if there are any indications that the strategy might work. 
 
+## Prerequisites
+
+* Python 3
+* NumPy
+* Pandas
+* Matplotlib
+* Seaborn
+* yfinance
+
 ## Dataset
 We used the yfinance python package to download thehistorical  daily prices of the SPY
 
@@ -23,6 +32,22 @@ We used the yfinance python package to download thehistorical  daily prices of t
     + max_high: Each day that SPY reach a new maximun high
     + order: The value is 1 if there is a new maximum or zero otherwise
     + year: We getit from the index of the dataset
+
+## Acknowledgements
+
+* The data for this project was collected using the yfinance package.
+
+## Table of Contents
+
+* Gather the data
+* Assess and explore the data
+* Clean the data
+* Analysis and visualization
+    + SPY Adjusted Close Prices plot
+    + Number of maximum historical prices per year
+    + Plot all series of 250 days after new high
+
+## Conclusion
         
 
 ## Summary of Findings
